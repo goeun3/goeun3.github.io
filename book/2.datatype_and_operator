@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+a=2
+b=1.12
+c="결과는 "
+
+//a와 b는 문자열로 형변환됨
+document.write(c+a+b+"<br/>")
+//연산자의 우선순위에 따라 바르게 계산됨
+document.write(c+a*b+"<br>")
+
+</script>
+</body>
+</html>
